@@ -1,2 +1,4 @@
-configs
+Configs
 =======
+
+Various .rc files
