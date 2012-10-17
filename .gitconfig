@@ -1,0 +1,11 @@
+[user]
+	name = Darren Hurley
+	email = ironsidevsquincy@googlemail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vim
