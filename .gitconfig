@@ -1,10 +1,10 @@
 [user]
 	name = Darren Hurley
-	email = ironsidevsquincy@googlemail.com
 [color]
 	diff = auto
 	status = auto
 	branch = auto
+	ui = true
 [credential]
 	helper = osxkeychain
 [core]
