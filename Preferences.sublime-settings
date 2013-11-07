@@ -1,10 +1,16 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Mac Classic.tmTheme",
-	// Valid values are "system", "enabled" and "disabled"
-  "overlay_scroll_bars": "system",
-  "tab_size": 4,
-  "translate_tabs_to_spaces": true,
-  "rulers": [120],
-  "font_face": "Monaco",
-  "font_size": 12
+	"font_face": "Monaco",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"overlay_scroll_bars": "system",
+	"rulers":
+	[
+		120
+	],
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true
 }
