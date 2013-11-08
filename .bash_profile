@@ -24,3 +24,5 @@ alias svnrm='svn status | grep "^\!" | awk "{print \$2}" | xargs svn delete'
 alias js='java -cp /usr/share/java/js.jar org.mozilla.javascript.tools.shell.Main'
 
 export PATH=.:~/bin:$PATH
+
+export JAVA_HOME=$(/usr/libexec/java_home)

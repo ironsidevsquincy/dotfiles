@@ -25,3 +25,11 @@ set statusline=%t\ %y\ Line\ %l,\ Column\ %c
 
 " colouring
 syntax on
+
+" pathogen (https://github.com/tpope/vim-pathogen)
+execute pathogen#infect()
+
+" solarized theme
+"syntax enable
+"set background=dark
+"colorscheme solarized
