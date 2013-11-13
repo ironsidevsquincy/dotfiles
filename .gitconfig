@@ -9,3 +9,6 @@
 	editor = vim
 [push]
     default = simple
+[user]
+	name = Darren Hurley
+	email = ironsidevsquincy@googlemail.com
