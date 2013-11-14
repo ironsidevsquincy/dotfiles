@@ -8,7 +8,7 @@ Set up
 
 ### Bash
 
-    $ echo '. `pwd`/.bash_profile' >> ~/.bash_profile
+    $ echo ". `pwd`/.bash_profile" >> ~/.bash_profile
     $ . ~/.bash_profile
 
 ### Git
@@ -25,4 +25,5 @@ Set up
 
 ### Zsh
 
-    $ ln -sfn `pwd`/zsh ~/.oh-my-zsh/custom
+    $ echo "ZSH_CUSTOM=`pwd`/zsh" | cat - ~/.zshrc > .zshrc-tmp && mv .zshrc-tmp ~/.zshrc
+    $ . ~/.zshrc
