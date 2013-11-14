@@ -1,1 +1,2 @@
-export PATH=$PATH:/Users/darrenh/.rvm/gems/ruby-2.0.0-p247/bin:/Users/darrenh/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/darrenh/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/darrenh/.rvm/bin:/Users/darrenh/.nvm/v0.10.21/bin:.:/Users/darrenh/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+export PATH=~/bin:$PATH
+export GRUNT_ISDEV=1
