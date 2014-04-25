@@ -6,10 +6,10 @@ Various .rc files
 Set up
 ------
 
-### Bash
+### Zsh
 
-    $ echo ". `pwd`/.bash_profile" >> ~/.bash_profile
-    $ . ~/.bash_profile
+    $ echo "ZSH_CUSTOM=`pwd`/zsh" | cat - ~/.zshrc > .zshrc-tmp && mv .zshrc-tmp ~/.zshrc
+    $ . ~/.zshrc
 
 ### Git
 
@@ -22,8 +22,3 @@ Set up
 ### Sublime Text 2
 
     $ ln -sfn `pwd`/sublime ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
-
-### Zsh
-
-    $ echo "ZSH_CUSTOM=`pwd`/zsh" | cat - ~/.zshrc > .zshrc-tmp && mv .zshrc-tmp ~/.zshrc
-    $ . ~/.zshrc
