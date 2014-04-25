@@ -18,6 +18,8 @@ Set up
 ### Vim
 
     $ ln -sf `pwd`/.vimrc ~/.vimrc
+    
+Note, requires [pathogen.vimh](https://github.com/tpope/vim-pathogen)
 
 ### Sublime Text 2
 
