@@ -1,10 +1,8 @@
-Configs
-=======
+# Configs
 
 Various .rc files
 
-Set up
-------
+## Set up
 
 ### Zsh
 
