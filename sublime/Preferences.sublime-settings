@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"detect_indentation": false,
-    "ensure_newline_at_eof_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Monaco",
 	"font_size": 12,
 	"ignored_packages":
@@ -9,13 +9,14 @@
 		"Vintage"
 	],
 	"overlay_scroll_bars": "system",
-    "remember_open_files": true,
+	"remember_open_files": true,
 	"rulers":
 	[
-		80, 120
+		80,
+		120
 	],
-    "save_on_focus_lost": true,
-    "show_full_path": true,
+	"save_on_focus_lost": true,
+	"show_full_path": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,

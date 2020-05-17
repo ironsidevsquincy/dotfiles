@@ -1,12 +1,20 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"Babel",
+		"Babel Snippets",
+		"EditorConfig",
 		"Emmet",
+		"ESLint",
 		"Git",
 		"Jade",
 		"JSHint",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
