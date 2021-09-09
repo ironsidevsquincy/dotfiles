@@ -2,6 +2,13 @@
 
 Various .rc files
 
+## Requirements
+
+* [Oh My Zsh](https://ohmyz.sh/)
+* [pathogen.vimh](https://github.com/tpope/vim-pathogen)
+* [Sublime Text](https://www.sublimetext.com/)
+* [iTerm2](https://iterm2.com/)
+
 ## Set up
 
 ### Zsh
@@ -16,10 +23,13 @@ Various .rc files
 ### Vim
 
     $ ln -sf `pwd`/.vimrc ~/.vimrc
-    
-Note, requires [pathogen.vimh](https://github.com/tpope/vim-pathogen)
 
-### Sublime Text 2
 
-    $ rm -rf ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
-    $ ln -sfn `pwd`/sublime ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
+### Sublime Text
+
+    $ rm -rf ~/Library/Application\ Support/Sublime\ Text/Packages/User
+    $ ln -sf `pwd`/sublime ~/Library/Application\ Support/Sublime\ Text/Packages/User
+
+### iTerm2
+
+    $ ln -sf `pwd`/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
