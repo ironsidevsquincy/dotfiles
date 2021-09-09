@@ -34,4 +34,4 @@ Various .rc files
 
 ### iTerm2
 
-    $ ln -sf `pwd`/iterm/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+Import profile `./iterm/profile.json` and key bindings `./iterm/bindings.itermkeymap`
