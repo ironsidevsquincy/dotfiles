@@ -18,7 +18,8 @@ Various .rc files
 
 ### Git
 
-    $ ln -sf `pwd`/.gitconfig ~/.gitconfig
+    $ mkdir -p ~/.config/git
+    $ ln -sf `pwd`/.gitconfig ~/.config/git/config
 
 ### Vim
 
