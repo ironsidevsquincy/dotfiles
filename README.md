@@ -20,6 +20,7 @@ Various .rc files
 
     $ mkdir -p ~/.config/git
     $ ln -sf `pwd`/.gitconfig ~/.config/git/config
+    $ touch ~/.gitconfig
 
 ### Vim
 
